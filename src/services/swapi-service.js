@@ -29,7 +29,7 @@ export default class SwapiService {
 
     async getPlanet(id) {
         const planet = await this.getResource(`/planets/${id}/`);
-        return this._transformPlanet(planet);
+        return  this._transformPlanet(planet);
     }
 
     async getAllStarships() {
@@ -41,43 +41,40 @@ export default class SwapiService {
         const starship = this.getResource(`/starships/${id}/`);
         return this._transformStarship(starship);
     }
-
-    _extractId(item) {
-        const idRegExp = /\/([0-9]*)\/$/;
+    _extractId(item){
+        const idRegExp=/\/([0-9]*)\/$/;
         return item.url.match(idRegExp)[1];
     }
 
-    _transformPlanet(planet) {
-        return {
-            id: this._extractId(planet),
-            name: planet.name,
-            population: planet.population,
-            rotationPeriod: planet.rotation_period,
-            diameter: planet.diameter
-        };
+    _transformPerson(person){
+        return{
+            id:this._extractId(person),
+            name:person.name,
+            gender:person.gender,
+            birthday:person.birthday,
+            eyeColor:person.eyeColor
+        }
     }
-
-    _transformStarship(starship) {
-        return {
-            id: this._extractId(starship),
-            name: starship.name,
-            model: starship.model,
-            manufacturer: starship.manufacturer,
-            costInCredits: starship.costInCredits,
-            length: starship.length,
-            crew: starship.crew,
-            passengers: starship.passengers,
-            cargoCapacity: starship.cargoCapacity
+    _transformStarship(starship){
+        return{
+            id:this._extractId(starship),
+            name:starship.name,
+            model:starship.model,
+            manufacturer:starship.manufacturer,
+            costInCredits:starship.costInCredits,
+            length:starship.length,
+            crew:starship.crew,
+            passengers:starship.passengers,
+            cargoCapacity:starship.cargoCapacity
         }
     }
 
-    _transformPerson(person) {
-        return {
-            id: this._extractId(person),
-            name: person.name,
-            gender: person.gender,
-            birthYear: person.birthYear,
-            eyeColor: person.eyeColor
-        }
-    }
+    _transformPlanet(planet){
+        return{
+            id:this._extractId(planet),
+            name:planet.name,
+            population:planet.population,
+            rotationPeriod:planet.rotation_period,
+            diameter:planet.diameter
+    }}
 }
