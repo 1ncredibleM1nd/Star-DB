@@ -51,10 +51,10 @@ export default class SwapiService {
             id:this._extractId(person),
             name:person.name,
             gender:person.gender,
-            birthday:person.birthday,
-            eyeColor:person.eyeColor
+            birthYear:person.birth_year,
+            eyeColor:person.eye_color
         }
-    }
+    };
     _transformStarship=(starship)=>{
         return{
             id:this._extractId(starship),
@@ -67,7 +67,7 @@ export default class SwapiService {
             passengers:starship.passengers,
             cargoCapacity:starship.cargoCapacity
         }
-    }
+    };
 
     _transformPlanet=(planet)=>{
         return{
