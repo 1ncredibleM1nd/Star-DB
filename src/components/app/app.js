@@ -13,7 +13,7 @@ import PeoplePage from "../people-page/people-page";
 
 export default class App extends Component {
 	
-	swapiService = new SwapiService ();
+	SwapiService = new SwapiService ();
 	
 	state = {
 		showRandomPlanet: true,
@@ -44,10 +44,21 @@ export default class App extends Component {
 			<div className="stardb-app">
 				<Header/>
 				{planet}
-				<button className="toggle-planet btn btn-warning btn-lg mb-4" onClick={this.toggleRandomPlanet}>Toogle
+				<button className="toggle-planet btn btn-warning btn-lg mb-4"
+				        onClick={this.toggleRandomPlanet}>Toogle
 					Random
 				</button>
 			<PeoplePage/>
+				<div className="row mb-2">
+					<div className="col-md-6">
+						<ItemList onItemSelected={this.onPersonSelected}
+						          getData={this.SwapiService.getAllPlanets}/>
+						
+					</div>
+					<div className="col-md-6">
+						<PersonDetails personId={this.state.selectedPerson}/>
+					</div>
+				</div>
 			</div>
 		
 		);

@@ -1,21 +1,22 @@
 import React, {Component} from 'react';
 
-import SwapiService from "../../services/swapi-service";
+
 import './item-list.css';
 import Spinner from "../loader";
 
 export default class ItemList extends Component {
-	SwapiService = new SwapiService ();
+	
 	
 	state = {
-		peopleList: null
+		itemList: null
 	};
 	
 	componentDidMount() {
-		this.SwapiService.getAllPeople ()
-			.then ((peopleList) => {
+		const {getData}=this.props;
+		getData()
+			.then ((itemList) => {
 				this.setState ({
-					peopleList
+					itemList
 				});
 			});
 	}
