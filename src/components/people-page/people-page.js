@@ -10,7 +10,7 @@ export  default class PeoplePage extends Component{
 	
 	SwapiService = new SwapiService();
 	state={
-		selectedPerson: 3,
+		selectedPerson: 4,
 		hasError:false
 	};
 	componentDidCatch(error, errorInfo) {
