@@ -9,6 +9,7 @@ import ItemList from '../item-list';
 
 import './app.css';
 import PersonDetails from "../person-details";
+import PeoplePage from "../people-page/people-page";
 
 export default class App extends Component {
 	
@@ -16,7 +17,7 @@ export default class App extends Component {
 	
 	state = {
 		showRandomPlanet: true,
-		selectedPerson: null
+	
 	};
 	
 	toggleRandomPlanet = () => {
@@ -46,14 +47,7 @@ export default class App extends Component {
 				<button className="toggle-planet btn btn-warning btn-lg mb-4" onClick={this.toggleRandomPlanet}>Toogle
 					Random
 				</button>
-				<div className="row mb-2">
-					<div className="col-md-6">
-						<ItemList onItemSelected={this.onPersonSelected}/>
-					</div>
-					<div className="col-md-6">
-						<PersonDetails personId={this.state.selectedPerson}/>
-					</div>
-				</div>
+			<PeoplePage/>
 			</div>
 		
 		);
