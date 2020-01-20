@@ -52,7 +52,8 @@ export default class App extends Component {
 				<div className="row mb-2">
 					<div className="col-md-6">
 						<ItemList onItemSelected={this.onPersonSelected}
-						          getData={this.SwapiService.getAllPlanets}/>
+						          getData={this.SwapiService.getAllPlanets}
+						renderItem={(item)=>item.name}/>
 						
 					</div>
 					<div className="col-md-6">
