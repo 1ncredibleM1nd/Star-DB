@@ -17,7 +17,7 @@ export default class App extends Component {
 	
 	state = {
 		showRandomPlanet: true,
-	
+		
 	};
 	
 	toggleRandomPlanet = () => {
@@ -40,7 +40,6 @@ export default class App extends Component {
 			null;
 		
 		return (
-			
 			<div className="stardb-app">
 				<Header/>
 				{planet}
@@ -48,13 +47,13 @@ export default class App extends Component {
 				        onClick={this.toggleRandomPlanet}>Toogle
 					Random
 				</button>
-			<PeoplePage/>
+				<PeoplePage/>
 				<div className="row mb-2">
 					<div className="col-md-6">
 						<ItemList onItemSelected={this.onPersonSelected}
 						          getData={this.SwapiService.getAllPlanets}
-						renderItem={(item)=>item.name}/>
-						
+						          renderItem={(item) => item.name}/>
+					
 					</div>
 					<div className="col-md-6">
 						<PersonDetails personId={this.state.selectedPerson}/>
