@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf7fe3e-b133-45e2-a900-137e28bd6590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/errorboundry/error-boundry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/errorboundry/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/people-page/people-page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person-details/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-details/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person-details/person-details.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-details/item-details.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/person-details/person-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/person-details/item-details.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +112,8 @@
       <workItem from="1579452823486" duration="3405000" />
       <workItem from="1579476832684" duration="3518000" />
       <workItem from="1579543185287" duration="2896000" />
-      <workItem from="1579649242190" duration="4389000" />
+      <workItem from="1579649242190" duration="4821000" />
+      <workItem from="1579702983594" duration="2319000" />
     </task>
     <servers />
   </component>
@@ -134,30 +136,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1001" y="32" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579650231513" />
-    <state width="916" height="198" key="GridCell.Tab.0.bottom" timestamp="1579653656146">
+    <state width="916" height="199" key="GridCell.Tab.0.bottom" timestamp="1579705784934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579653656146" />
-    <state width="916" height="198" key="GridCell.Tab.0.center" timestamp="1579653656145">
+    <state width="916" height="199" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579705784934" />
+    <state width="916" height="199" key="GridCell.Tab.0.center" timestamp="1579705784934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="198" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579653656145" />
-    <state width="916" height="198" key="GridCell.Tab.0.left" timestamp="1579653656145">
+    <state width="916" height="199" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579705784934" />
+    <state width="916" height="199" key="GridCell.Tab.0.left" timestamp="1579705784933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="198" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579653656145" />
-    <state width="916" height="198" key="GridCell.Tab.0.right" timestamp="1579653656146">
+    <state width="916" height="199" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579705784933" />
+    <state width="916" height="199" key="GridCell.Tab.0.right" timestamp="1579705784934">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="198" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579653656146" />
+    <state width="916" height="199" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579705784934" />
     <state x="440" y="179" width="1448" height="713" key="SettingsEditor" timestamp="1579262453788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="179" width="1448" height="713" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579262453788" />
-    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579543188764">
+    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1579704804123">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579543188764" />
+    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579704804123" />
     <state x="1207" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579650143007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -169,7 +171,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/Row/row.js</url>
           <line>2</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
