@@ -48,17 +48,7 @@ export default class App extends Component {
 					Random
 				</button>
 				<PeoplePage/>
-				<div className="row mb-2">
-					<div className="col-md-6">
-						<ItemList onItemSelected={this.onPersonSelected}
-						          getData={this.SwapiService.getAllPlanets}
-						          renderItem={(item) => item.name}/>
-					
-					</div>
-					<div className="col-md-6">
-						<PersonDetails personId={this.state.selectedPerson}/>
-					</div>
-				</div>
+				
 			</div>
 		
 		);

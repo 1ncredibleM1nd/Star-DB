@@ -7,10 +7,6 @@ import './people-page.css'
 import SwapiService from "../../services/swapi-service";
 import Row from "../Row";
 
-
-
-
-
 export default class PeoplePage extends Component {
 	
 	SwapiService = new SwapiService ();
@@ -36,11 +32,13 @@ export default class PeoplePage extends Component {
 		if (this.state.hasError) {
 			return <ErrorIndicator/>
 		}
-	const itemList=(<ItemList onItemSelected={this.onPersonSelected}
-		          getData={this.SwapiService.getAllPeople}
-		          renderItem={({name, gender, birthYear}) => `${name} (${gender}, ${birthYear})`}/>
-	);
-		const personDetails =(<PersonDetails personId={this.state.selectedPerson}/>);
+		const itemList = (<ItemList onItemSelected={this.onPersonSelected}
+		                            getData={this.SwapiService.getAllPeople}>
+				
+				{(i) => (`${i.name} (${i.birthYear})`)}
+			</ItemList>
+		);
+		const personDetails = (<PersonDetails personId={this.state.selectedPerson}/>);
 		return (
 			<Row left={itemList} right={personDetails}/>
 		);
