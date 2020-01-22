@@ -3,9 +3,11 @@ import React, {Component} from "react";
 import ItemList from "../item-list";
 import PersonDetails from "../person-details";
 import ErrorIndicator from "../error-indicator";
+import ErrorBoundry from "../errorboundry";
 import './people-page.css'
 import SwapiService from "../../services/swapi-service";
 import Row from "../Row";
+
 
 export default class PeoplePage extends Component {
 	
@@ -16,9 +18,7 @@ export default class PeoplePage extends Component {
 	};
 	
 	componentDidCatch(error, errorInfo) {
-		this.setState ({
-			hasError: true
-		})
+	
 	}
 	
 	onPersonSelected = (id) => {
@@ -40,7 +40,9 @@ export default class PeoplePage extends Component {
 		);
 		const personDetails = (<PersonDetails personId={this.state.selectedPerson}/>);
 		return (
+			<ErrorBoundry>
 			<Row left={itemList} right={personDetails}/>
+			</ErrorBoundry>
 		);
 	}
 }
