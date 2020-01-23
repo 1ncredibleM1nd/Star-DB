@@ -6,6 +6,7 @@ import './app.css';
 import ItemDetails, {Record} from "../item-details/item-details";
 import ErrorBoundry from "../errorboundry";
 import Row from "../Row";
+import {PersonDetails, PersonList, PlanetDetails, StarshipDetails, StarshipList} from "../sw-components";
 
 export default class App extends Component {
 	
@@ -59,9 +60,15 @@ export default class App extends Component {
 			<ErrorBoundry>
 				<div className="stardb-app">
 					<Header/>
-					<Row
-						left={personDetails}
-						right={starshipDetails}/>
+					<PersonDetails itemId={11}/>
+					<PlanetDetails itemId={5}/>
+					<StarshipDetails itemId={9}/>
+				<PersonList>
+					{({name})=><span>{name}</span>}
+				</PersonList>
+					<StarshipList>
+						{({name})=><span>{name}</span>}
+					</StarshipList>
 				</div>
 			</ErrorBoundry>
 		

@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
-import SwapiService from "../../services/swapi-service";
+
+
 import './item-details.css';
 
-const Record=({item,field,label})=>{
-  return(  <li className="list-group-item">
-        <span className="term">{label}</span>
-        <span>{item[field]}</span>
-    </li>
-  )
+const Record = ({ item, field, label }) => {
+    return (
+        <li className="list-group-item">
+            <span className="term">{label}</span>
+            <span>{ item[field] }</span>
+        </li>
+    );
 };
+
 export {
     Record
 };
@@ -16,9 +19,8 @@ export {
 
 
 
-
 export default class ItemDetails extends Component {
-    SwapiService = new SwapiService();
+    
     state= {
        item:null,
         image:null
@@ -48,7 +50,7 @@ export default class ItemDetails extends Component {
             return <span>Select person from a list</span>
         }
         
-        const {id,name,gender,birthYear,eyeColor}=item;
+        const {name}=item;
         return (
             <div className="item-details card">
                 <img className="item-image"
