@@ -2,49 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf7fe3e-b133-45e2-a900-137e28bd6590" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/app.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/app.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/app/app.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/details/details.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/details/details.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/details/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/header.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/item-list/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/item-list/item-list.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/random-planet/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/swapi-service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Row/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Row/row.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Row/row.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/app.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-indicator/droid.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/error-indicator/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/errorboundry/error-boundry.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/errorboundry/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hoc-helpers/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/hoc-helpers/with-data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-details/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-details/item-details.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-details/item-details.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-list/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loader/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loader/loader.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loader/loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/people-page/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/people-page/people-page.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/planet-details/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/planet-details/planet-details.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/planet-details/planet-details.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starship-details/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starship-details/starship-details.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/starship-details/starship-details.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sw-components/details.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sw-components/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sw-components/item-lists.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/swapi-service.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +43,7 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Sass File" />
       </list>
     </option>
   </component>
@@ -86,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Sites/Edge-studio.ru" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -154,7 +136,7 @@
       <workItem from="1579702983594" duration="15162000" />
       <workItem from="1579750261776" duration="3992000" />
       <workItem from="1579975920871" duration="82000" />
-      <workItem from="1583341581655" duration="1498000" />
+      <workItem from="1583341581655" duration="8292000" />
     </task>
     <servers />
   </component>
@@ -165,10 +147,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="183" key="#ESLint" timestamp="1579479747933">
+    <state x="1032" y="183" key="#ESLint" timestamp="1583346970119">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="183" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1579479747933" />
+    <state x="1032" y="183" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1583346970119" />
     <state x="1170" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579264670252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -177,26 +159,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1001" y="32" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579650231513" />
+    <state x="995" y="297" key="EditFileWatcherDialog" timestamp="1583350392784">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="995" y="297" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583350392784" />
     <state x="1220" y="279" key="FileChooserDialogImpl" timestamp="1579976002416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579976002416" />
-    <state width="916" height="198" key="GridCell.Tab.0.bottom" timestamp="1579754481362">
+    <state width="916" height="195" key="GridCell.Tab.0.bottom" timestamp="1583350396476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579754481362" />
-    <state width="916" height="198" key="GridCell.Tab.0.center" timestamp="1579754481362">
+    <state width="916" height="195" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583350396476" />
+    <state width="916" height="195" key="GridCell.Tab.0.center" timestamp="1583350396476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="198" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579754481362" />
-    <state width="916" height="198" key="GridCell.Tab.0.left" timestamp="1579754481362">
+    <state width="916" height="195" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583350396476" />
+    <state width="916" height="195" key="GridCell.Tab.0.left" timestamp="1583350396476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="198" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579754481362" />
-    <state width="916" height="198" key="GridCell.Tab.0.right" timestamp="1579754481362">
+    <state width="916" height="195" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583350396476" />
+    <state width="916" height="195" key="GridCell.Tab.0.right" timestamp="1583350396476">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="198" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579754481362" />
+    <state width="916" height="195" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583350396476" />
     <state x="440" y="179" width="1448" height="713" key="SettingsEditor" timestamp="1579262453788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
