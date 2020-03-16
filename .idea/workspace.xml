@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf7fe3e-b133-45e2-a900-137e28bd6590" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/error.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loader/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loader/loader.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loader/loader.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/loader/temp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/details/details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/details/details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/swapi-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/swapi-service.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +131,8 @@
       <workItem from="1583441315633" duration="4661000" />
       <workItem from="1583534450749" duration="1825000" />
       <workItem from="1584039681654" duration="1708000" />
-      <workItem from="1584219222888" duration="6479000" />
+      <workItem from="1584219222888" duration="7283000" />
+      <workItem from="1584376906064" duration="8936000" />
     </task>
     <servers />
   </component>
@@ -150,30 +163,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579976002416" />
-    <state width="916" height="194" key="GridCell.Tab.0.bottom" timestamp="1583536279779">
+    <state width="916" height="192" key="GridCell.Tab.0.bottom" timestamp="1584226692921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583536279779" />
-    <state width="916" height="194" key="GridCell.Tab.0.center" timestamp="1583536279779">
+    <state width="916" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584226692921" />
+    <state width="916" height="192" key="GridCell.Tab.0.center" timestamp="1584226692916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583536279779" />
-    <state width="916" height="194" key="GridCell.Tab.0.left" timestamp="1583536279779">
+    <state width="916" height="192" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584226692916" />
+    <state width="916" height="192" key="GridCell.Tab.0.left" timestamp="1584226692916">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583536279779" />
-    <state width="916" height="194" key="GridCell.Tab.0.right" timestamp="1583536279779">
+    <state width="916" height="192" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584226692916" />
+    <state width="916" height="192" key="GridCell.Tab.0.right" timestamp="1584226692921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583536279779" />
+    <state width="916" height="192" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584226692921" />
     <state x="440" y="179" width="1448" height="713" key="SettingsEditor" timestamp="1579262453788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="179" width="1448" height="713" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579262453788" />
-    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1584219256054">
+    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1584381124374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584219256054" />
+    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584381124374" />
     <state x="1207" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579650143007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

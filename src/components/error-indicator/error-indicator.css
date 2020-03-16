@@ -1,0 +1,13 @@
+.errorInd {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.errorInd .errorContent {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: #00a379;
+  font-size: 36px;
+}
+
+/*# sourceMappingURL=error-indicator.css.map */

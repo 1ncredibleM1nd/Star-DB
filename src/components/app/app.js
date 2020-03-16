@@ -3,6 +3,7 @@ import Header from '../header';
 import RandomPlanet from '../random-planet';
 import ItemList from '../item-list';
 import PersonDetails from "../details";
+import Loader from "../loader/loader";
 
 import './app.css';
 
@@ -20,6 +21,7 @@ const App = () => {
 					<PersonDetails />
 				</div>
 			</div>
+			
 		</div>
 	);
 };
