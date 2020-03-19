@@ -2,21 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bf7fe3e-b133-45e2-a900-137e28bd6590" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/error-indicator.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/error.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/error-indicator/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loader/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loader/loader.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loader/loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/loader/temp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/details/details.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/details/details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/item-list/item-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-list/item-list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/random-planet/random-planet.sass" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/random-planet/random-planet.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/swapi-service.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/swapi-service.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,6 +61,7 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\PhpStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -132,7 +125,8 @@
       <workItem from="1583534450749" duration="1825000" />
       <workItem from="1584039681654" duration="1708000" />
       <workItem from="1584219222888" duration="7283000" />
-      <workItem from="1584376906064" duration="8936000" />
+      <workItem from="1584376906064" duration="9167000" />
+      <workItem from="1584566814689" duration="7358000" />
     </task>
     <servers />
   </component>
@@ -143,10 +137,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1032" y="183" key="#ESLint" timestamp="1583346970119">
+    <state x="1032" y="183" key="#ESLint" timestamp="1584569013506">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="183" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1583346970119" />
+    <state x="1032" y="183" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1584569013506" />
     <state x="1170" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579264670252">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -163,30 +157,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1579976002416" />
-    <state width="916" height="192" key="GridCell.Tab.0.bottom" timestamp="1584226692921">
+    <state width="916" height="190" key="GridCell.Tab.0.bottom" timestamp="1584577272993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="192" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584226692921" />
-    <state width="916" height="192" key="GridCell.Tab.0.center" timestamp="1584226692916">
+    <state width="916" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584577272993" />
+    <state width="916" height="190" key="GridCell.Tab.0.center" timestamp="1584577272992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="192" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584226692916" />
-    <state width="916" height="192" key="GridCell.Tab.0.left" timestamp="1584226692916">
+    <state width="916" height="190" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584577272992" />
+    <state width="916" height="190" key="GridCell.Tab.0.left" timestamp="1584577272992">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="192" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584226692916" />
-    <state width="916" height="192" key="GridCell.Tab.0.right" timestamp="1584226692921">
+    <state width="916" height="190" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584577272992" />
+    <state width="916" height="190" key="GridCell.Tab.0.right" timestamp="1584577272993">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="916" height="192" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584226692921" />
+    <state width="916" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584577272993" />
     <state x="440" y="179" width="1448" height="713" key="SettingsEditor" timestamp="1579262453788">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="179" width="1448" height="713" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1579262453788" />
-    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1584381124374">
+    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1584566825174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584381124374" />
+    <state x="1075" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584566825174" />
     <state x="1207" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579650143007">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
