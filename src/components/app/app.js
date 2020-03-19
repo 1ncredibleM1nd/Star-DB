@@ -6,12 +6,13 @@ import PersonDetails from "../details";
 import Loader from "../loader/loader";
 
 import './app.css';
+import PeoplePage from "../people-page/people-page";
 
 export default class App extends Component {
 	
 	state = {
 		showRandomPlanet: true,
-		selectedPerson: 5
+		hasError:false
 	};
 	onPersonSelected = (id) => {
 		this.setState ({
@@ -25,14 +26,9 @@ export default class App extends Component {
 				<Header/>
 				<RandomPlanet/>
 				
-				<div className="row mb2">
-					<div className="col-md-6">
-						<ItemList onItemSelected={this.onPersonSelected}/>
-					</div>
-					<div className="col-md-6">
-						<PersonDetails personId={this.state.selectedPerson}/>
-					</div>
-				</div>
+				<PeoplePage/>
+				<PeoplePage/>
+				<PeoplePage/>
 			
 			</div>
 		)
